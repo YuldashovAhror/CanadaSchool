@@ -13,9 +13,17 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('sliders', function (Blueprint $table) {
+        Schema::create('news', function (Blueprint $table) {
             $table->id();
             $table->string('photo');
+            $table->string('type_uz')->nullable();
+            $table->string('type_ru')->nullable();
+            $table->string('type_en')->nullable();
+            $table->string('day')->nullable();
+            $table->string('month')->nullable();
+            $table->text('discription_uz')->nullable();
+            $table->text('discription_ru')->nullable();
+            $table->text('discription_en')->nullable();
             $table->string('alt_uz')->nullable();
             $table->string('alt_ru')->nullable();
             $table->string('alt_en')->nullable();
@@ -33,6 +41,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('sliders');
+        Schema::dropIfExists('news');
     }
 };

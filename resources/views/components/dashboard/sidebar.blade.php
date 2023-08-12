@@ -24,8 +24,63 @@
                             <li><a href="index.html">Создать</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown"><a class="nav-link menu-title link-nav" href="jsgrid-table.html"><i data-feather="file-text"></i><span>Link</span></a></li>
+                    {{-- <li class="dropdown"><a class="nav-link menu-title link-nav" href="jsgrid-table.html"><i data-feather="file-text"></i><span>Link</span></a></li> --}}
                     
+                    <li class="dropdown">
+                        <a class="nav-link menu-title link-nav" href="{{route('dashboard.slider.index')}}"><i data-feather="file-text"></i>
+                            <span>Слайдеры</span>
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="nav-link menu-title link-nav" href="{{route('dashboard.about.index')}}"><i data-feather="file-text"></i>
+                            <span>О нас</span>
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="nav-link menu-title link-nav" href="{{route('dashboard.value.index')}}"><i data-feather="file-text"></i>
+                            <span>Наши ценности</span>
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="nav-link menu-title link-nav" href="{{route('dashboard.curriculum.index')}}"><i data-feather="file-text"></i>
+                            <span>Учебный план</span>
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="nav-link menu-title link-nav" href="{{route('dashboard.facilities.index')}}"><i data-feather="file-text"></i>
+                            <span>Удобства</span>
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="nav-link menu-title link-nav" href="{{route('dashboard.teams.index')}}"><i data-feather="file-text"></i>
+                            <span>Команды</span>
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="nav-link menu-title link-nav" href="{{route('dashboard.learning.index')}}"><i data-feather="file-text"></i>
+                            <span>Обучение</span>
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="nav-link menu-title link-nav" href="{{route('dashboard.admission.index')}}"><i data-feather="file-text"></i>
+                            <span>Прием</span>
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="nav-link menu-title link-nav" href="{{route('dashboard.employment.index')}}"><i data-feather="file-text"></i>
+                            <span>Работа</span>
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="nav-link menu-title link-nav" href="{{route('dashboard.studentlife.index')}}"><i data-feather="file-text"></i>
+                            <span>Студенческая жизнь</span>
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="nav-link menu-title link-nav" href="{{route('dashboard.news.index')}}"><i data-feather="file-text"></i>
+                            <span>Новости</span>
+                        </a>
+                    </li>
                     <li class="dropdown">
                         <a class="nav-link menu-title link-nav" href="{{route('dashboard.words.index')}}"><i data-feather="file-text"></i>
                             <span>Словарь</span>
